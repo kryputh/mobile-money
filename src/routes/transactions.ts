@@ -6,6 +6,7 @@ import {
   updateNotesHandler,
   searchTransactionsHandler,
   listTransactionsHandler,
+  validateTransaction,
 } from "../controllers/transactionController";
 import { TimeoutPresets, haltOnTimedout } from "../middleware/timeout";
 import { validateTransactionFilters } from "../utils/transactionFilters";
